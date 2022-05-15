@@ -19,7 +19,7 @@ public class MouseTest {
         }
 
         Mouse mouse = new Mouse();
-        mouse.addLisenter(MouseEventType.ON_CLICK, callback, click);
+        mouse.addListener(MouseEventType.ON_CLICK, callback, click);
         mouse.ON_CLICK();
     }
 }

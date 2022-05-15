@@ -1,13 +1,13 @@
 package org.example.D06_observer.mouse;
 
 
-import org.example.D06_observer.core.EventLisenter;
+import org.example.D06_observer.core.EventListener;
 
 /**
  * 被观察者
  * @author 86158
  */
-public class Mouse extends EventLisenter {
+public class Mouse extends EventListener {
 
     public void ON_CLICK() {
         System.out.println("单击事件");

@@ -8,16 +8,15 @@ import java.util.Map;
 /**
  * @author 86158
  */
-public class EventLisenter {
+public class EventListener {
 
     //Map相当于是一个注册器
     public Map<Enum, Event> events = new HashMap<Enum, Event>();
 
-    public EventLisenter addLisenter(Enum eventType, Object target, Method callback) {
+    public void addListener(Enum eventType, Object target, Method callback) {
         //注册事件
         //用反射调用这个方法
         events.put(eventType, new Event(target, callback));
-        return this;
     }
 
     private void trigger(Event e) {
