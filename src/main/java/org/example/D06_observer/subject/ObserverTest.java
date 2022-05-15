@@ -20,7 +20,7 @@ public class ObserverTest {
 
         //这里写Lily
         Subject subject = new Subject();
-        EventLisenter eventLisenter = subject.addLisenter(SubjectEventType.ON_ADD, observer, advice);
+        subject.addLisenter(SubjectEventType.ON_ADD, observer, advice);
         subject.add();
     }
 }
