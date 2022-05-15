@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * @author 86158
  */
-public class EventListener {
+public class EventListenter {
 
     //Map相当于是一个注册器
     public Map<Enum, Event> events = new HashMap<Enum, Event>();

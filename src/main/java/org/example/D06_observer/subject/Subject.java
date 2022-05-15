@@ -1,8 +1,8 @@
 package org.example.D06_observer.subject;
 
-import org.example.D06_observer.core.EventListener;
+import org.example.D06_observer.core.EventListenter;
 
-public class Subject extends EventListener {
+public class Subject extends EventListenter {
     //通常的话，采用动态里来实现监控，避免了代码侵入
     public void add(){
         System.out.println("调用添加的方法");
