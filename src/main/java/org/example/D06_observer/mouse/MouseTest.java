@@ -12,6 +12,7 @@ public class MouseTest {
         MouseEventCallback callback = new MouseEventCallback();
         Method click = null;
         try {
+            // 获取回调方法
             click = MouseEventCallback.class.getMethod("click",  new Class<?>[]{Event.class});
         } catch (NoSuchMethodException e) {
             e.printStackTrace();

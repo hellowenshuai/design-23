@@ -4,6 +4,7 @@ package org.example.D06_observer.mouse;
 import org.example.D06_observer.core.EventLisenter;
 
 /**
+ * 被观察者
  * @author 86158
  */
 public class Mouse extends EventLisenter {

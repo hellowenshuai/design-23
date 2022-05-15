@@ -3,6 +3,7 @@ package org.example.D06_observer.mouse;
 import org.example.D06_observer.core.Event;
 
 /**
+ * 观察者 执行回调方法
  * @author 86158
  */
 public class MouseEventCallback {
